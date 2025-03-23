@@ -1403,7 +1403,8 @@ color:black; }
 
 @media (min-width: 768px) {
 
-  .sidebar, article { width: 700px; }
+  .sidebar, article {   max-width: 100%;
+  width: 90%; }
 
   .has-scrollbar::-webkit-scrollbar-button { width: 100px; }
 

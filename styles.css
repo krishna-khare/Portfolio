@@ -1168,27 +1168,20 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
 @media (min-width: 450px) {
-
   .clients-item { min-width: calc(33.33% - 10px); }
-
-
   .project-img,
   .blog-banner-box { height: auto; }
-
 }
 
 @media (min-width: 580px) {
-
   :root {
-
     --fs-1: 32px;
     --fs-2: 24px;
     --fs-3: 26px;
     --fs-4: 18px;
     --fs-6: 15px;
-    --fs-7: 15px;
+    --fs-7: 14px;
     --fs-8: 12px;
-
   }
 
   .sidebar, article {
@@ -1219,24 +1212,29 @@ textarea.form-input::-webkit-resizer { display: none; }
     margin-bottom: 100px;
   }
 
-
   .sidebar {
     max-height: 180px;
     margin-bottom: 30px;
   }
-  .sidebar.active { max-height: 584px; }
 
+  .sidebar.active { max-height: 584px; }
   .sidebar-info { gap: 25px; }
- 
-  .avatar-box img { width: 120px;border-radius: 50%;border:1px solid white; }
+
+  .avatar-box img {
+    width: 120px;
+    border-radius: 50%;
+    border: 1px solid white;
+  }
 
   .info-content .name { margin-bottom: 15px; }
 
-  .info-content .title { padding: 5px 18px; 
-  background-color: white;
-color: black;
-font-family: Georgia, 'Times New Roman', Times, serif;
-font-weight: 800;}
+  .info-content .title {
+    padding: 5px 18px;
+    background-color: white;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+  }
 
   .info_more-btn {
     top: -30px;
@@ -1260,16 +1258,11 @@ font-weight: 800;}
     width: calc(100% - 64px);
   }
 
-
   .navbar { border-radius: 20px 20px 0 0; }
-
   .navbar-list { gap: 20px; }
-
   .navbar-link { --fs-8: 14px; }
 
-
   .about .article-title { margin-bottom: 20px; }
-
   .about-text { margin-bottom: 40px; }
 
   .service-item {
@@ -1343,7 +1336,6 @@ font-weight: 800;}
     width: 35px;
   }
 
-
   .clients-list {
     gap: 50px;
     margin: 0 -30px;
@@ -1352,7 +1344,6 @@ font-weight: 800;}
   }
 
   .clients-item { min-width: calc(33.33% - 35px); }
-
 
   .timeline-list { margin-left: 65px; }
 
@@ -1366,14 +1357,15 @@ font-weight: 800;}
 
   .skills-item:not(:last-child) { margin-bottom: 25px; }
 
-
-  .project-img, .blog-banner-box { border-radius: 16px;height: 75px;width: 75px;
-  background-color: white;}
+  .project-img, .blog-banner-box {
+    border-radius: 16px;
+    height: 90px;
+    width: 90px;
+    background-color: white;
+  }
 
   .blog-posts-list { gap: 30px; }
-
   .blog-content { padding: 25px; }
-
 
   .mapbox {
     height: 380px;
@@ -1385,9 +1377,11 @@ font-weight: 800;}
     margin-bottom: 30px;
   }
 
-  .form-input { padding: 15px 20px;
-  background-color: white;
-color:black; }
+  .form-input {
+    padding: 15px 20px;
+    background-color: white;
+    color: black;
+  }
 
   textarea.form-input { margin-bottom: 30px; }
 
@@ -1397,7 +1391,6 @@ color:black; }
   }
 
   .form-btn ion-icon { font-size: 18px; }
-
 }
 
 
